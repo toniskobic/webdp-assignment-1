@@ -1,17 +1,17 @@
 .button {
-    width: fit-content;
-    width: -moz-fit-content;
-    padding: 5px 20px;
-    background: none;
-    border: 1px solid var(--primary-color);
-    cursor: pointer;
+  width: fit-content;
+  width: -moz-fit-content;
+  padding: 5px 20px;
+  background: none;
+  border: 1px solid var(--primary-color);
+  cursor: pointer;
 }
 
 .button--primary {
-    background-color: var(--primary-color);
-    color: var(--font-secondary-color);
+  background-color: var(--primary-color);
+  color: var(--font-secondary-color);
 }
 
 .button--primary:hover {
-    opacity: .9;
+  opacity: 0.9;
 }

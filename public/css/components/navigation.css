@@ -1,6 +1,6 @@
 .navigation {
-    display: flex;
-    align-items: center;
-    height: 70px;
-    flex-basis: 60%;
+  display: flex;
+  align-items: center;
+  height: 70px;
+  flex-basis: 60%;
 }
