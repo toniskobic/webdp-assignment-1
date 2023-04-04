@@ -7,7 +7,7 @@ Website is implemented using the [BEM (Block, Element, Modifer)](https://en.bem.
 Website consists of multiple pages:
 
 - Homepage
-- About author
+- About
 - Login
 - Register
 - Form page
@@ -16,3 +16,7 @@ Website consists of multiple pages:
 
 The easiest way to set up a development environment is to use Visual Studio Code code editor
 together with the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension.
+
+# Preview
+
+![Gallery page](https://github.com/tskobic/webdp-assignment-1/blob/main/public/multimedia/images/gallery_page_screenshot.png)
