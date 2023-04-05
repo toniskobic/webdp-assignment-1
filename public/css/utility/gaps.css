@@ -13,6 +13,10 @@
   margin-bottom: var(--gap-sm);
 }
 
+.m-l-auto {
+  margin-left: auto;
+}
+
 .m-l-sm {
   margin-left: var(--gap-sm);
 }
@@ -25,6 +29,6 @@
   margin-top: var(--gap-md);
 }
 
-.m-r-auto {
-  margin-right: auto;
+.m-r-xs {
+  margin-right: var(--gap-xs);
 }

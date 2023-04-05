@@ -1,4 +1,45 @@
-.social-icon {
+.icon {
+  height: 20px;
+  width: 20px;
+}
+
+footer .icon {
+  height: 30px;
+  width: 30px;
+}
+
+@media (min-width: 600px) {
+  .icon {
+    height: 35px;
+    width: 35px;
+  }
+
+  footer .icon {
+    height: 70px;
+    width: 70px;
+  }
+}
+
+.menu-link {
+  display: flex;
+  width: 70px;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.menu-link:hover {
+  background-color: var(--secondary-color);
+}
+
+.menu-link .menu-link__icon {
   height: 35px;
   width: 35px;
+}
+
+@media (min-width: 992px) {
+  .menu-link {
+    display: none;
+  }
 }

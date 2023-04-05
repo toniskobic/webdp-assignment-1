@@ -2,7 +2,7 @@
 
 <html lang="en">
   <head>
-    <title>Home</title>
+    <title>Form</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="title" content="Forms" />
@@ -11,6 +11,7 @@
       name="description"
       content="04.04.2023. Form page, keywords: forms, sport, news"
     />
+    <link rel="icon" type="image/x-icon" href="../../public/assets/icons/favicon.ico">
     <link rel="stylesheet" href="../../public/css/main.css" />
   </head>
 
@@ -18,44 +19,51 @@
     <header class="m-b-md">
       <a class="title link" href="#content">Form</a>
       <nav class="box-fluid navigation m-r-auto">
-        <ul class="list--unstyled list--horizontal">
+        <ul class="list--unstyled">
           <li>
-            <a href="../index.html">Home</a>
+            <a class="link" href="../index.html">Home</a>
           </li>
           <li>
-            <a href="../about.html">About</a>
+            <a class="link" href="../about.html">About</a>
           </li>
           <li>
-            <a href="../gallery.html">Gallery</a>
+            <a class="link" href="../gallery.html">Gallery</a>
           </li>
           <li>
-            <a href="./login.html">Login</a>
+            <a class="link" href="./login.html">Login</a>
           </li>
           <li>
-            <a href="./register.html">Register</a>
+            <a class="link" href="./register.html">Register</a>
           </li>
           <li>
-            <a href="./Forms.html">Forms</a>
+            <a class="link" href="./form.html">Form</a>
           </li>
         </ul>
       </nav>
-      <section aria-label="social networks">
+      <section class="m-r-xs m-l-auto" aria-label="social networks">
         <img
-          class="social-icon"
-          src="../../../public/multimedia/svgs/facebook.svg"
+          class="icon"
+          src="../../public/assets/svgs/facebook.svg"
           alt="facebook"
         />
         <img
-          class="social-icon m-l-xs"
-          src="../../../public/multimedia/svgs/instagram.svg"
+          class="icon m-l-xs"
+          src="../../public/assets/svgs/instagram.svg"
           alt="instagram"
         />
         <img
-          class="social-icon m-l-xs"
-          src="../../../public/multimedia/svgs/rss.svg"
+          class="icon m-l-xs"
+          src="../../public/assets/svgs/rss.svg"
           alt="rss"
         />
       </section>
+      <a class="menu-link">
+        <img
+          class="menu-link__icon"
+          src="../../public/assets/svgs/hamburger-menu.svg"
+          alt="hamburger menu"
+        />
+      </a>
     </header>
     <main id="content" class="box">
       <form class="form centered">
@@ -148,12 +156,21 @@
       </div>
       <section aria-label="validation references">
         <a href="" class="m-l-sm">
-          <img src="../../../public/multimedia/images/HTML5.png" alt="html5" />
+          <img
+            class="icon"
+            src="../../public/assets/images/HTML5.png"
+            alt="html5"
+          />
         </a>
         <a href="" class="m-l-sm">
-          <img src="../../../public/multimedia/images/css3.png" alt="css3" />
+          <img
+            class="icon"
+            src="../../public/assets/images/css3.png"
+            alt="css3"
+          />
         </a>
       </section>
     </footer>
+    <script src="../../public/javascript/index.js" defer></script>
   </body>
 </html>

@@ -6,6 +6,11 @@
   display: flex;
 }
 
+.list--vertical {
+  display: flex;
+  flex-direction: column;
+}
+
 .list--horizontal > li:not(:last-child) {
   margin-right: 2rem;
 }

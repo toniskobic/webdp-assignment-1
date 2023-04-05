@@ -1,6 +1,45 @@
 .navigation {
+  display: none;
+  position: absolute;
+  top: 70px;
+  left: 0;
+  z-index: 100;
+  background: var(--primary-color);
+}
+
+.navigation--show {
   display: flex;
-  align-items: center;
-  height: 70px;
-  flex-basis: 60%;
+}
+
+.navigation ul {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+}
+
+.navigation ul > li {
+  height: 30px;
+}
+
+@media (min-width: 992px) {
+  .navigation {
+    display: flex;
+    position: static;
+    align-items: center;
+    flex-basis: 60%;
+  }
+
+  .navigation ul {
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+  }
+
+  .navigation ul > li:not(:last-child) {
+    margin-right: 2rem;
+  }
+
+  .navigation ul > li {
+    height: initial;
+  }
 }

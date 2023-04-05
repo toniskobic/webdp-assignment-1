@@ -2,7 +2,7 @@
 
 <html lang="en">
   <head>
-    <title>Home</title>
+    <title>Gallery</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="title" content="Gallery" />
@@ -11,6 +11,7 @@
       name="description"
       content="04.04.2023. Gallery page, keywords: gallery, sport, news"
     />
+    <link rel="icon" type="image/x-icon" href="../public/assets/icons/favicon.ico">
     <link rel="stylesheet" href="../../public/css/main.css" />
   </head>
 
@@ -18,53 +19,60 @@
     <header class="m-b-md">
       <a class="title link" href="#content">Gallery</a>
       <nav class="box-fluid navigation m-r-auto">
-        <ul class="list--unstyled list--horizontal">
+        <ul class="list--unstyled">
           <li>
-            <a href="./index.html">Home</a>
+            <a class="link" href="./index.html">Home</a>
           </li>
           <li>
-            <a href="./about.html">About</a>
+            <a class="link" href="./about.html">About</a>
           </li>
           <li>
-            <a href="./gallery.html">Gallery</a>
+            <a class="link" href="./gallery.html">Gallery</a>
           </li>
           <li>
-            <a href="./forms/login.html">Login</a>
+            <a class="link" href="./forms/login.html">Login</a>
           </li>
           <li>
-            <a href="./forms/register.html">Register</a>
+            <a class="link" href="./forms/register.html">Register</a>
           </li>
           <li>
-            <a href="./forms/form.html">Form</a>
+            <a class="link" href="./forms/form.html">Form</a>
           </li>
         </ul>
       </nav>
-      <section aria-label="social networks">
+      <section class="m-r-xs m-l-auto" aria-label="social networks">
         <img
-          class="social-icon"
-          src="../../public/multimedia/svgs/facebook.svg"
+          class="icon"
+          src="../../public/assets/svgs/facebook.svg"
           alt="facebook"
         />
         <img
-          class="social-icon m-l-xs"
-          src="../../public/multimedia/svgs/instagram.svg"
+          class="icon m-l-xs"
+          src="../../public/assets/svgs/instagram.svg"
           alt="instagram"
         />
         <img
-          class="social-icon m-l-xs"
-          src="../../public/multimedia/svgs/rss.svg"
+          class="icon m-l-xs"
+          src="../../public/assets/svgs/rss.svg"
           alt="rss"
         />
       </section>
+      <a class="menu-link">
+        <img
+          class="menu-link__icon"
+          src="../public/assets/svgs/hamburger-menu.svg"
+          alt="hamburger menu"
+        />
+      </a>
     </header>
     <main id="content">
       <section class="gallery" aria-label="gallery">
         <div class="gallery__image">
           <figure class="zoom">
             <picture>
-              <source srcset="../../public/multimedia/images/barcelona.png" />
+              <source srcset="../../public/assets/images/barcelona.png" />
               <img
-                src="../../public/multimedia/images/barcelona.png"
+                src="../../public/assets/images/barcelona.png"
                 alt="Barcelona"
               />
             </picture>
@@ -74,11 +82,8 @@
         <div class="gallery__image">
           <figure class="zoom">
             <picture>
-              <source srcset="../../public/multimedia/images/benzema.jpg" />
-              <img
-                src="../../public/multimedia/images/benzema.jpg"
-                alt="Benzema"
-              />
+              <source srcset="../../public/assets/images/benzema.jpg" />
+              <img src="../../public/assets/images/benzema.jpg" alt="Benzema" />
             </picture>
             <figcaption>Benzema</figcaption>
           </figure>
@@ -86,11 +91,9 @@
         <div class="gallery__image">
           <figure class="zoom">
             <picture>
-              <source
-                srcset="../../public/multimedia/images/granadaplayers.jpg"
-              />
+              <source srcset="../../public/assets/images/granadaplayers.jpg" />
               <img
-                src="../../public/multimedia/images/granadaplayers.jpg"
+                src="../../public/assets/images/granadaplayers.jpg"
                 alt="Flowers"
               />
             </picture>
@@ -100,9 +103,9 @@
         <div class="gallery__image">
           <figure class="zoom">
             <picture>
-              <source srcset="../../public/multimedia/images/griezmann.jpg" />
+              <source srcset="../../public/assets/images/griezmann.jpg" />
               <img
-                src="../../public/multimedia/images/griezmann.jpg"
+                src="../../public/assets/images/griezmann.jpg"
                 alt="Antoine Griezmann"
               />
             </picture>
@@ -112,9 +115,9 @@
         <div class="gallery__image">
           <figure class="zoom">
             <picture>
-              <source srcset="../../public/multimedia/images/joaofelix.jpg" />
+              <source srcset="../../public/assets/images/joaofelix.jpg" />
               <img
-                src="../../public/multimedia/images/joaofelix.jpg"
+                src="../../public/assets/images/joaofelix.jpg"
                 alt="Joao Felix"
               />
             </picture>
@@ -124,8 +127,8 @@
         <div class="gallery__image">
           <figure class="zoom">
             <picture>
-              <source srcset="../../public/multimedia/images/koke.jpg" />
-              <img src="../../public/multimedia/images/koke.jpg" alt="Koke" />
+              <source srcset="../../public/assets/images/koke.jpg" />
+              <img src="../../public/assets/images/koke.jpg" alt="Koke" />
             </picture>
             <figcaption>Koke</figcaption>
           </figure>
@@ -133,11 +136,8 @@
         <div class="gallery__image">
           <figure class="zoom">
             <picture>
-              <source srcset="../../public/multimedia/images/laliga.png" />
-              <img
-                src="../../public/multimedia/images/laliga.png"
-                alt="LaLiga"
-              />
+              <source srcset="../../public/assets/images/laliga.png" />
+              <img src="../../public/assets/images/laliga.png" alt="LaLiga" />
             </picture>
             <figcaption>LaLiga logo</figcaption>
           </figure>
@@ -145,9 +145,9 @@
         <div class="gallery__image">
           <figure class="zoom">
             <picture>
-              <source srcset="../../public/multimedia/images/laligaball.jpg" />
+              <source srcset="../../public/assets/images/laligaball.jpg" />
               <img
-                src="../../public/multimedia/images/laligaball.jpg"
+                src="../../public/assets/images/laligaball.jpg"
                 alt="LaLiga lopta"
               />
             </picture>
@@ -157,9 +157,9 @@
         <div class="gallery__image">
           <figure class="zoom">
             <picture>
-              <source srcset="../../public/multimedia/images/messi.jpeg" />
+              <source srcset="../../public/assets/images/messi.jpeg" />
               <img
-                src="../../public/multimedia/images/messi.jpeg"
+                src="../../public/assets/images/messi.jpeg"
                 alt="Lionel Messi"
               />
             </picture>
@@ -169,9 +169,9 @@
         <div class="gallery__image">
           <figure class="zoom">
             <picture>
-              <source srcset="../../public/multimedia/images/modrić.jpeg" />
+              <source srcset="../../public/assets/images/modrić.jpeg" />
               <img
-                src="../../public/multimedia/images/modrić.jpeg"
+                src="../../public/assets/images/modrić.jpeg"
                 alt="Luka Modrić"
               />
             </picture>
@@ -181,9 +181,9 @@
         <div class="gallery__image">
           <figure class="zoom">
             <picture>
-              <source srcset="../../public/multimedia/images/ramos.jpg" />
+              <source srcset="../../public/assets/images/ramos.jpg" />
               <img
-                src="../../public/multimedia/images/ramos.jpg"
+                src="../../public/assets/images/ramos.jpg"
                 alt="Sergio Ramos"
               />
             </picture>
@@ -193,9 +193,9 @@
         <div class="gallery__image">
           <figure class="zoom">
             <picture>
-              <source srcset="../../public/multimedia/images/suarez.jpg" />
+              <source srcset="../../public/assets/images/suarez.jpg" />
               <img
-                src="../../public/multimedia/images/suarez.jpg"
+                src="../../public/assets/images/suarez.jpg"
                 alt="Luis Suarez"
               />
             </picture>
@@ -211,12 +211,21 @@
       </div>
       <section aria-label="validation references">
         <a href="" class="m-l-sm">
-          <img src="../../public/multimedia/images/HTML5.png" alt="html5" />
+          <img
+            class="icon"
+            src="../../public/assets/images/HTML5.png"
+            alt="html5"
+          />
         </a>
         <a href="" class="m-l-sm">
-          <img src="../../public/multimedia/images/css3.png" alt="css3" />
+          <img
+            class="icon"
+            src="../../public/assets/images/css3.png"
+            alt="css3"
+          />
         </a>
       </section>
     </footer>
+    <script src="../public/javascript/index.js" defer></script>
   </body>
 </html>

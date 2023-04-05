@@ -1,5 +1,6 @@
 header {
   width: 100%;
+  height: 70px
 }
 
 main {
@@ -9,6 +10,7 @@ main {
 footer {
   display: flex;
   box-sizing: border-box;
+  align-items: center;
   padding: 15px 50px;
   height: 100px;
 }
