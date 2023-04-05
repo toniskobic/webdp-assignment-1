@@ -16,6 +16,7 @@ This assignment was subsequently improved, more precisely:
 
 - Mobile navigation menu implemented
 - Folder structure revised
+- Other small improvements
 
 ## Development server
 
