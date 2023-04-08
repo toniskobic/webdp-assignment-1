@@ -1,7 +1,7 @@
 # WebDP Assignment 1
 
 WebDP Assignment 1 is a static HTML, CSS and JavaScript website made as part of a college assignment.
-This assignment is the first of four assignments made as part of the faculty undergraudate studies course "Web Design and Programming".
+This assignment is the first of four assignments made as part of the faculty undergraduate studies course "Web Design and Programming".
 Website is implemented using the [BEM (Block, Element, Modifer)](https://en.bem.info/methodology/) methodology.
 
 Website consists of multiple pages:
