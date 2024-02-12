@@ -26,4 +26,4 @@ together with the [Live Server](https://marketplace.visualstudio.com/items?itemN
 
 # Preview
 
-![Gallery page](https://github.com/tskobic/webdp-assignment-1/blob/main/public/assets/images/gallery_page_screenshot.png)
+![Gallery page](https://github.com/toniskobic/webdp-assignment-1/blob/main/public/assets/images/gallery_page_screenshot.png)
